@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Fresher Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name – recent graduate looking for a full-time role.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">YN</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme" aria-label="Toggle dark mode">◐</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="status">Open to full-time roles · Available immediately</p>
+      <h1>Hi, I'm <span class="name">Your Name</span>.<br>I'm a [Software Developer / Web Developer] fresher.</h1>
+      <p>I recently graduated with a [B.E. / B.Tech / BCA / B.Sc] in [your branch]. I build projects, learn fast, and I'm looking for my first full-time role where I can contribute and grow.</p>
+      <div class="actions">
+        <a class="btn primary" href="resume.pdf" download>Download resume</a>
+        <a class="btn" href="#projects">See my projects</a>
+        <a class="btn" href="#contact">Contact me</a>
+      </div>
+    </section>
+
+    <section id="about" class="block">
+      <h2>About me</h2>
+      <p class="lead">I'm from Maharashtra and just finished my degree. During college I built several projects and practised problem solving. Replace this with 3–4 lines about your interests, strengths and the kind of role you want.</p>
+
+      <h3 class="sub">Education</h3>
+      <ul class="timeline">
+        <li><strong>[Degree, Branch]</strong><span>[College name], [University] · 20XX–20XX · CGPA/Percentage: X.X</span></li>
+        <li><strong>[12th / Diploma]</strong><span>[College name] · 20XX · XX%</span></li>
+        <li><strong>[10th]</strong><span>[School name] · 20XX · XX%</span></li>
+      </ul>
+    </section>
+
+    <section id="skills" class="block">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card"><h3>Languages</h3><ul class="skills"><li>Python</li><li>Java</li><li>JavaScript</li><li>SQL</li></ul></div>
+        <div class="card"><h3>Web</h3><ul class="skills"><li>HTML</li><li>CSS</li><li>React</li><li>Node.js</li></ul></div>
+        <div class="card"><h3>Tools</h3><ul class="skills"><li>Git &amp; GitHub</li><li>VS Code</li><li>MySQL</li><li>Linux</li></ul></div>
+      </div>
+    </section>
+
+    <section id="projects" class="block">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project One (Final-year project)</h3>
+          <p>What it does and the problem it solves, in one or two lines. Mention what you personally built.</p>
+          <p class="tags">Python · MySQL · Flask</p>
+          <p class="links-inline"><a href="https://github.com/your-username/project-one">Code</a> · <a href="#">Live demo</a></p>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>Short description of the project and the result or feature you are proud of.</p>
+          <p class="tags">HTML · CSS · JavaScript</p>
+          <p class="links-inline"><a href="https://github.com/your-username/project-two">Code</a> · <a href="#">Live demo</a></p>
+        </article>
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>Short description of the project and the technologies used.</p>
+          <p class="tags">Java · SQL</p>
+          <p class="links-inline"><a href="https://github.com/your-username/project-three">Code</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="block">
+      <h2>Internships &amp; certifications</h2>
+      <ul class="timeline">
+        <li><strong>[Internship role], [Company]</strong><span>[Month Year – Month Year] · What you worked on</span></li>
+        <li><strong>[Certification name]</strong><span>[Issuer, e.g. NPTEL / Coursera / Infosys Springboard] · 20XX</span></li>
+        <li><strong>[Achievement / hackathon / workshop]</strong><span>[One line about it]</span></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="block">
+      <h2>Contact</h2>
+      <p>I'm available for interviews and full-time opportunities. Write to me or find me online.</p>
+      <p class="links">
+        <a class="btn primary" href="mailto:you@example.com">you@example.com</a>
+        <a class="btn" href="tel:+910000000000">+91 00000 00000</a>
+        <a class="btn" href="https://www.linkedin.com/in/your-username">LinkedIn</a>
+        <a class="btn" href="https://github.com/your-username">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Your Name</footer>
+  <script src="script.js"></script>
+</body>
+</html>
